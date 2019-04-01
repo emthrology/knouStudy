@@ -7,7 +7,7 @@ public class CarExample {
 	public static void main(String[] args) {
 		Car myCar = new Car(); //생성자 호출
 		System.out.println("Maker : " + myCar.company);
-		System.out.println("model " + myCar.model);
+		System.out.println("model :" + myCar.model);
 		System.out.println("color :"+myCar.color);
 		System.out.println("MaxSpeed : "+myCar.maxSpeed);
 		System.out.println("CurrentSpeed : "+myCar.speed);//default value of int : 0
