@@ -7,8 +7,8 @@ public class CarExample {
 	public static void main(String[] args) {
 		Car myCar = new Car(); //생성자 호출
 		System.out.println("Maker : " + myCar.company);
-		System.out.println("model :" + myCar.model);
-		System.out.println("color :"+myCar.color);
+		System.out.println("model : " + myCar.model);
+		System.out.println("color : "+myCar.color);
 		System.out.println("MaxSpeed : "+myCar.maxSpeed);
 		System.out.println("CurrentSpeed : "+myCar.speed);//default value of int : 0
 		// 다른패키지에서 작성해서 car의 필드를 public으로 바꿔야했음
