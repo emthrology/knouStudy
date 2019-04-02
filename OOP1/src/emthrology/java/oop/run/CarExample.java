@@ -1,6 +1,6 @@
 package emthrology.java.oop.run;
 
-import emthrology.java.oop.field_dclairation.Car;
+import emthrology.java.oop.sec07_field_dclairation.Car;
 
 public class CarExample {
 

@@ -1,4 +1,4 @@
-package emthrology.java.oop.field_dclairation;
+package emthrology.java.oop.sec07_field_dclairation;
 
 public class Car {
 	public String company = "hyundai";
