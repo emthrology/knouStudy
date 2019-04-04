@@ -1,4 +1,4 @@
-package sec15.emthrology.java.annotation;
+package part6.sec15.emthrology.java.annotation;
 
 public class TestService {
 	

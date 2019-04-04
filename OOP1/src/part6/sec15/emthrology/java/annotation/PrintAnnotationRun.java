@@ -1,4 +1,4 @@
-package sec15.emthrology.java.annotation;
+package part6.sec15.emthrology.java.annotation;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
