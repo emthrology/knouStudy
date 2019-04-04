@@ -17,7 +17,7 @@ public class PrintAnnotationRun {
 //				System.out.println("number : " + printAnnotation.number() + "\n");	//적용되어있는number출력
 				
 				System.out.println("[" + method.getName() + "]");					//[메소드 이름] 출력
-				for(int i = 0;i<printAnnotation.number();i++) {						//각 어노테이션마다 정해진 value와 number만큼 출
+				for(int i = 0;i<printAnnotation.number();i++) {						//각 어노테이션마다 정해진 value와 number만큼 출력
 					System.out.print(printAnnotation.value());
 				}
 				System.out.println();
