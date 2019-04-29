@@ -12,7 +12,7 @@ public class StatePrintThread extends Thread {
 	public void run() {
 		while(true) {
 			Thread.State state = tergetThread.getState();
-			//state ={NEW,RUNNABLE,BLOCKED,WAITING,TIMED_WAITING,TERMINATED}
+			//State =private static final[NEW,RUNNABLE,BLOCKED,WAITING,TIMED_WAITING,TERMINATED]
 			System.out.println("타겟 스레드 상태 :" + state);
 			if(state == Thread.State.NEW) {
 				tergetThread.start();
