@@ -25,12 +25,12 @@ public class ExcuteVsSubmitExample {
 			};
 			
 //			es.execute(runnable);
-			es.submit(runnable);
+			es.submit(runnable);//작업처리요청
 			Thread.sleep(10);
 		}
 		
 		
-		es.shutdown();
+		es.shutdown();//스레드풀 종료
 
 	}
 
