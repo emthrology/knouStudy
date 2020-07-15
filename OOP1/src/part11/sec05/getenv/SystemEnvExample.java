@@ -6,6 +6,8 @@ public class SystemEnvExample {
 		String javaHome = System.getenv("JAVA_HOME");
 		System.out.println("[JAVA_HOME]" + javaHome);
 		
+		
+		
 
 	}
 

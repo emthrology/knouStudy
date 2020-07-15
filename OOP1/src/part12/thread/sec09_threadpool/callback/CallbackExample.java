@@ -58,6 +58,7 @@ public class CallbackExample {
 		ex.doWork("3", "4");
 		ex.doWork("3", "four");
 		
+//		CallbackExample.main(args);
 		ex.finish();
 
 	}

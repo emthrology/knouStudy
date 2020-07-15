@@ -1,6 +1,4 @@
-package part12.thread.sec06;
-
-import part12.thread.sec06.join.SumThread;
+package part12.thread.sec06.join;
 
 public class JoinExample {
 
